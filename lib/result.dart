@@ -9,9 +9,9 @@ class Result extends StatelessWidget {
     if (score < 30) {
       x = 'You are good';
     } else if (score < 60) {
-      x = 'yYou are better';
+      x = 'You are better';
     } else if (score <= 91) {
-      x = 'you are marvelous!!';
+      x = 'You are marvelous!!';
     }
     return x;
   }
